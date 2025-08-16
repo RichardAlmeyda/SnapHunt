@@ -40,7 +40,7 @@ pip install -r requirements.txt
 
 ## ⚡ Usage
 ```bash
-python snaphunt.py path/to/image.png
+python SnApHuNT.py path/to/image.png
 ```
 
 This tool is for educational and research purposes only.
