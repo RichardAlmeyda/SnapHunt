@@ -26,3 +26,6 @@ It extracts metadata, generates cryptographic hashes, fetches system and host in
 git clone https://github.com/yourusername/SnapHunt.git
 cd SnapHunt
 pip install -r requirements.txt
+ 
+⚡ Usage
+python snaphunt.py path/to/image.png
