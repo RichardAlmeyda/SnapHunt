@@ -1,1 +1,41 @@
-📸 SnapHunt is a lightweight Python tool for image intelligence gathering (IMGINT). It extracts image metadata (format, size, mode), generates cryptographic hashes (MD5, SHA1, SHA256), fetches system and host information, extracts GPS data (if available) with Google Maps links, retrieves HTTP headers and host info of the image server, and builds direct reverse image search links for Google Lens, Yandex, Bing, TinEye, and SauceNAO. SnapHunt also automatically generates a timestamped report as a .txt file. ![SnapHunt Screenshot](https://i.ibb.co/4ggprtJg/Screenshot-2025-08-14-161205.png) To install, clone the repository with `git clone https://github.com/yourusername/SnapHunt.git`, navigate to the folder `cd SnapHunt`, and install dependencies using `pip install -r requirements.txt`. To use, run `python snaphunt.py path/to/image.png` replacing the path with your image file location. Disclaimer: This tool is for educational and research purposes only. The author is not responsible for any misuse. Use responsibly.
+# 📸 SnapHunt
+
+SnapHunt is a lightweight Python tool for **image intelligence gathering (IMGINT)**.  
+It extracts metadata, generates cryptographic hashes, fetches system and host info, and builds direct reverse image search links — all in one report.
+
+![SnapHunt Screenshot](https://i.ibb.co/4ggprtJg/Screenshot-2025-08-14-161205.png)
+
+---
+
+## 🚀 Features
+- 📂 **Image Metadata Extraction**  
+  - Format, size, and mode
+- 🔑 **Cryptographic Hashes**  
+  - MD5, SHA1, SHA256
+- 🌍 **GPS Data Extraction** (if available)  
+  - Latitude, Longitude, Google Maps link
+- 🔍 **Reverse Image Search Links**  
+  - Google Lens  
+  - Yandex  
+  - Bing  
+  - TinEye  
+  - SauceNAO
+- 📑 **Automatic Report Generation**  
+  - Timestamped `.txt` file
+---
+
+## 📥 Installation
+
+```bash
+git clone https://github.com/yourusername/SnapHunt.git
+cd SnapHunt
+pip install -r requirements.txt
+```
+
+## ⚡ Usage
+```bash
+python snaphunt.py path/to/image.png
+```
+
+This tool is for educational and research purposes only.
+The author is not responsible for any misuse.
