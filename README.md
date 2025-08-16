@@ -1,3 +1,9 @@
+
+<a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-3.10%2B-306998?logo=python&logoColor=FFD43B&style=for-the-badge" height="36" />
+</a>
+
+
 # 📸 SnapHunt
 
 SnapHunt is a lightweight Python tool for **image intelligence gathering (IMGINT)**.  
